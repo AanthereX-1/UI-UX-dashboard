@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.left-section {
+  height: 100%;
+  background: #e9e9e9;
+}
+
+.left-section .side-bar {
+  width: auto !important;
+  border-radius: 0px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.left-section #logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+.left-section #logo i {
+  padding: 0.2rem;
+  border-radius: 50%;
+  border: 1.5px solid black;
+}
+
+.left-section .items-heading {
+  font-size: 0.6rem;
+  font-weight: bold;
+}
+
+.right-section nav {
+  width: 100vw;
+}
+
+.right-section .wrapper {
+  width: 100vw;
+}
+
+.right-section .holder {
+  width: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=interface.css.map */
